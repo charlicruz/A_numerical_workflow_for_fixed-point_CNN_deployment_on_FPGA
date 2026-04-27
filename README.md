@@ -1,6 +1,6 @@
 #  A numerically workflow for fixed-point CNN deployment on FPGA — Reproducibility Repository
 
-This repository accompanies the manuscript submitted to *Array* and provides the code and projects required to reproduce the main results:  
+This repository guides the manuscript submitted to *Array* and provides the code and projects required to reproduce the main results:  
 (i) MATLAB floating-point baseline, (ii) MATLAB fixed-point profiling/conversion, (iii) Vitis HLS C simulation and RTL/C co-simulation (cycle/latency reports), and (iv) Vivado synthesis/implementation (resource utilization reports).
 
 **Repository:**  
