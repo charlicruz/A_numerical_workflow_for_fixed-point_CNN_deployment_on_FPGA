@@ -4,7 +4,7 @@ This repository guides the manuscript submitted to *Array* and provides the code
 (i) MATLAB floating-point baseline, (ii) MATLAB fixed-point profiling/conversion, (iii) Vitis HLS C simulation and RTL/C co-simulation (cycle/latency reports), and (iv) Vivado synthesis/implementation (resource utilization reports).
 
 **Repository:**  
-https://github.com/charlicruz/A_numerically_workflow_for_fixed-point_CNN_deployment_on_FPGA
+https://github.com/charlicruz/A_numerical_workflow_for_fixed-point_CNN_deployment_on_FPGA
 **Version used in the manuscript:** tag/commit: `array-r3` 
 
 ## Toolchain and dataset protocol 
@@ -12,7 +12,7 @@ https://github.com/charlicruz/A_numerically_workflow_for_fixed-point_CNN_deploym
 - **MATLAB:** R2023b + Fixed-Point Designer 23.2
 - **Xilinx tools:** Vitis HLS / Vivado v2020  
 - **Target FPGA:** Artix-7 XC7A100T  
-- **Dataset:** MNIST (controlled subset used in this paper: **8,000 train / 2,000 test**)  
+- **Dataset:** MNIST (controlled subset used in this paper: **8,000 train / 2,000 test**)  and full dataset
 - **MNIST reference:** see `keras_mnist` (as cited in the manuscript)
 
 > Note: Results are reported on the fixed MNIST subset to enable fast iteration during fixed-point tuning and HLS design-space exploration.
