@@ -11,8 +11,8 @@ https://github.com/charlicruz/A_numerical_workflow_for_fixed-point_CNN_deploymen
 
 - **MATLAB:** R2023b + Fixed-Point Designer 23.2
 - **Xilinx tools:** Vitis HLS / Vivado v2020  
-- **Target FPGA:** Artix-7 XC7A100T  
-- **Dataset:** MNIST (controlled subset used in this paper: **8,000 train / 2,000 test**)  and full dataset
+- **Target FPGA:** Artix-7 XC7A200T  
+- **Dataset:** MNIST (full dataset and controlled subset used in this paper: **8,000 train / 2,000 test**)  
 - **MNIST reference:** see `keras_mnist` (as cited in the manuscript)
 
 > Note: Results are reported on the fixed MNIST subset to enable fast iteration during fixed-point tuning and HLS design-space exploration.
@@ -21,7 +21,7 @@ https://github.com/charlicruz/A_numerical_workflow_for_fixed-point_CNN_deploymen
 
 - **`MATLAB/`**  
   MATLAB reference implementation and fixed-point tooling.
-  - `MATLAB/CNN/CNN_FloatingPoint/` — floating-point baseline (run `TestMnistConv.m`)
+  - `MATLAB/CNN/CNN_FloatingPoint/` — floating-point baseline (run `TestMnistConv.m`). TestMnistConv_full.m to test the full dataset.
   - `MATLAB/CNN/CNN_FixedPoint/` — fixed-point profiling/conversion (run `*_fixpt.m` and `*_wrapper_fixpt.m`)
   - `MATLAB/Conversions to C/` — optional MATLAB Coder/codegen artifacts (not required unless explicitly reproduced)
   - See: `MATLAB/CNN/CNN_FloatingPoint/README.md`, `MATLAB/CNN/CNN_FixedPoint/README.md`, `MATLAB/Conversions to C/README.md`
