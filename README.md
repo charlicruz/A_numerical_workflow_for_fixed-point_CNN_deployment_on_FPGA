@@ -76,7 +76,7 @@ https://github.com/charlicruz/A_numerical_workflow_for_fixed-point_CNN_deploymen
 ## Toolchain 
 - MATLAB: R2024b + Fixed-Point Designer  
 - Vitis HLS / Vivado: 2200 
-- Target FPGA: Artix-7 XC7A100T  
+- Target FPGA: Artix-7 XC7A200T  
 - OS: Windows 10
 
 ---
